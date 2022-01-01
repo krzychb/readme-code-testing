@@ -70,7 +70,11 @@ It works!:
 from math import pow
 
 def multiple(x):
+<<<<<<< HEAD
     # another sample function
+=======
+    # sample function
+>>>>>>> auto commit for embedding
     return pow(x, 2)
 
 ```
