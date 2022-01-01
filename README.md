@@ -16,7 +16,8 @@ The following code block has a file path `src/helloworld.py`:
 
 ```python:src/helloworld.py
 def hello():
-    return "v1.0.0 world"
+    message = "v1.0.0 world"
+    return message
 
 ```
 
@@ -47,7 +48,7 @@ This action supports this with the syntax as "\`\`\`lang:external/file/path.py [
 
 ```py:src/mul.py [3-4]
 def multiple(x):
-    return pow(x, 2)
+    # sample function
 ```
 
 ### Multiple use
@@ -58,7 +59,9 @@ You might add one file path (ex. [src/mul.py](./src/mul.py)) for multiple code b
 from math import pow
 
 def multiple(x):
+    # sample function
     return pow(x, 2)
+
 ```
 
 It works!:
@@ -67,7 +70,9 @@ It works!:
 from math import pow
 
 def multiple(x):
+    # sample function
     return pow(x, 2)
+
 ```
 
 However, the other is not available.
