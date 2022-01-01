@@ -1,6 +1,6 @@
 # Readme code testing example
 
-![Test code and embed into README](https://github.com/tokusumi/readme-code-testing/workflows/Test%20code%20and%20embed%20into%20README/badge.svg)
+![Test code and embed into README](https://github.com/krzychb/readme-code-testing/workflows/Test%20code%20and%20embed%20into%20README/badge.svg)
 
 This repo demonstrates [Markdown Embed Code From File](https://github.com/marketplace/actions/markdown-embed-code-from-file) (GitHub Action).
 
@@ -46,7 +46,7 @@ You might add specific lines from one file (ex. [src/mul.py](./src/mul.py)).
 
 This action supports this with the syntax as "\`\`\`lang:external/file/path.py [start:end]\`\`\`" for it:
 
-```py:src/mul.py [3-4]
+```py:src/mul.py [3-5]
 def multiple(x):
     # sample function
 ```
@@ -70,7 +70,7 @@ It works!:
 from math import pow
 
 def multiple(x):
-    # sample function
+    # another sample function
     return pow(x, 2)
 
 ```
