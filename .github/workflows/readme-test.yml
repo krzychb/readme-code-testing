@@ -28,6 +28,6 @@ jobs:
         with:
           markdown: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
-          message: "auto commit for embedding"
+          message: "auto commit for embedding code changes"
           no_change: "No change on Readme."
           silent: false
