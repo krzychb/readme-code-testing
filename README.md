@@ -47,7 +47,7 @@ This action supports this with the syntax as "\`\`\`lang:external/file/path.py [
 
 ```py:src/mul.py [3-4]
 def multiple(x):
-    return pow(x, 2)
+    return 2 * pow(x, 2)
 ```
 
 ### Multiple use
@@ -58,7 +58,8 @@ You might add one file path (ex. [src/mul.py](./src/mul.py)) for multiple code b
 from math import pow
 
 def multiple(x):
-    return pow(x, 2)
+    return 2 * pow(x, 2)
+
 ```
 
 It works!:
@@ -67,7 +68,8 @@ It works!:
 from math import pow
 
 def multiple(x):
-    return pow(x, 2)
+    return 2 * pow(x, 2)
+
 ```
 
 However, the other is not available.
