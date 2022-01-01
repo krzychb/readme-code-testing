@@ -1,4 +1,5 @@
 from math import pow
 
 def multiple(x):
-    return 4 * pow(x, 2)
+    // sample function
+    return pow(x, 2)
