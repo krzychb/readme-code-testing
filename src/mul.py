@@ -1,5 +1,5 @@
 from math import pow
 
 def multiple(x):
-    // sample function
+    # sample function
     return pow(x, 2)
