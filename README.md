@@ -48,7 +48,8 @@ This action supports this with the syntax as "\`\`\`lang:external/file/path.py [
 
 ```py:src/mul.py [3-5]
 def multiple(x):
-    # sample function
+    # sample function to show
+    return pow(x, 2)
 ```
 
 ### Multiple use
@@ -59,7 +60,7 @@ You might add one file path (ex. [src/mul.py](./src/mul.py)) for multiple code b
 from math import pow
 
 def multiple(x):
-    # sample function
+    # sample function to show
     return pow(x, 2)
 
 ```
@@ -70,7 +71,7 @@ It works!:
 from math import pow
 
 def multiple(x):
-    # another sample function
+    # sample function to show
     return pow(x, 2)
 
 ```
